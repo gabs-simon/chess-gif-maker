@@ -1,14 +1,22 @@
 {
   "name": "chess-gif-maker",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Makes a chess gif",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@chrisoakman/chessboardjs": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabs-simon/chess-gif-maker.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.4"
   }
 }
