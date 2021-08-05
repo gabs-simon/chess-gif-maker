@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "artifacts": "npm run build"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",
